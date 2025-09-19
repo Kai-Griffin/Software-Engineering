@@ -1,0 +1,86 @@
+:root{
+    --primary-color: #000000;
+    --secondary-color: #5682b1;
+    --third-color: #739EC9;
+    --background-color: #FFE8D8;
+    --text-color: #ffffff;
+
+}
+
+@font-face{
+    font-family: 'MyFont';
+    src: url(ChapterTwo/Ascender.ttf);
+}
+
+
+
+body{
+
+    background-color: #b2bec3;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    font-family: 'MyFont', Arial, Helvetica, sans-serif;
+    
+    
+}
+
+header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--text-color);
+    box-shadow: 5px 5px 8px var(--primary-color);
+    text-align: center;
+    margin: 5px,20px,5px,20px;
+    transform: rotate(5deg);
+
+}
+
+
+main{
+
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    font-family: 'MyFont', Arial, Helvetica, sans-serif;
+    
+
+}
+
+section{
+    background-color: var(--text-color);
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 10px;
+    
+
+}
+
+p{
+
+    text-indent: 10px;
+    line-height: 1.5;
+    font-family: 'MyFont', Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    font-size: 32px;
+    color: var(--secondary-color);
+}
+
+img{
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 5px 5px 8px var(--primary-color);
+    
+}
+ 
