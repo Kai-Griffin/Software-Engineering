@@ -1,0 +1,146 @@
+
+:root{
+    --primary-color: #000000;
+    --secondary-color:#8dc081c2;
+    --third-color:#739Ec9;
+    --background-color:#FFEFFF;
+    --text-color:#FFFFFF;
+
+}
+
+
+
+
+/* Overall Style */
+body {
+    font-family: 'myfont',Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:var(--secondary-color);
+    
+    
+}
+/* Overall Style */
+
+/* Header */
+header{
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 20px;
+    border: solid var(--primary-color) 1px;
+    border-radius: 6px;
+    
+  
+}
+
+@font-face{
+    font-family: 'myfont';
+    src: url(ChapterThree/Philosopher-Regular.ttf);
+}
+
+.header{
+    text-align: center;
+}
+
+/* Header */
+
+/* section per topioc */
+.topic{
+    margin-left: 35%;
+}
+/* section per topioc */
+
+
+
+
+
+/* Main */
+main{
+    background-color: var(--background-color);
+   padding: 30px;
+    border: solid black 1px;
+    border-radius: 6px;  
+    font-family: Georgia, Times, 'Times New Roman', serif; 
+    
+}
+
+/* Main */
+
+/* Paragraph */
+.psec{
+    border: rgb(148, 144, 139) 1px solid;
+    padding: 15px;
+    background-color: rgba(231, 240, 240, 0.651);
+    box-shadow: var(--primary-color);
+
+   
+
+}
+/* Paragraph */
+
+/* image */
+#image1{
+    margin-left: 195px;
+    padding: 50px;
+}
+#image2{
+    margin-left: 290px;
+    padding: 50px;
+}
+#image3{
+    margin-left: 300px;
+    padding: 50px;
+}
+#image4{
+    margin-left: 230px;
+    padding: 50px;
+}
+#image5{
+    margin-left: 290px;
+    padding: 50px;
+}
+#image6{
+    margin-left: 25%;
+    padding: 50px;
+}
+
+#image7{
+    margin-left: 25%;
+    padding: 50px;
+}
+
+#image8{
+    margin-left: 25%;
+    padding: 50px;
+}
+#image9{
+    margin-left: 25%;
+    padding: 50px;
+}
+
+#image10{
+    margin-left: 18%;
+    padding: 50px;
+}
+#image11{
+    margin-left: 19%;
+    padding: 50px;
+}
+
+#image12{
+    margin-left: 19%;
+    padding: 50px;
+}
+
+#image13{
+    margin-left: 31%;
+    padding: 50px;
+}
+
+/* Image */
+
+
+
+/* Footer */
+
+/* Footer */
